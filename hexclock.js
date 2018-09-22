@@ -27,9 +27,11 @@ function showTime() {
 
 // Remove colons to display the corresponding hex colour in the body background.
 	clockColourPure = clockColour.replace(/:/g, '');
+	
 
 // Display the hex colour in the clockface
 	document.getElementById('hex').style.backgroundColor = clockColourPure;
+	document.getElementById('hex-container').style.backgroundColor = clockColourPure;
 
 // Display the current time on clock-face
 	document.getElementById('hex').innerHTML = clockColour;

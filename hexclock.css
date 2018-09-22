@@ -17,14 +17,21 @@ h2 {
     margin: 1em;
 }
 
+#hex-container {
+    padding: 6rem;
+    border-radius: 55px;
+    min-width: 25vw;
+    max-width: 25vw;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #239eba;
+}
 #hex {
     text-align: center;     
     color: white;
     font-family: 'Averia Libre', cursive;
     font-size: 4rem;
     letter-spacing: 0.2rem;
-    padding: 6rem;
-    border-radius: 55px;
     }
 
 footer {
